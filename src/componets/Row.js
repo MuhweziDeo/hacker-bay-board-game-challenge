@@ -7,8 +7,8 @@ export const Rows = (props) => {
         const rows = []
         for(let i = 0; i < props.rows; i++) {
             rows.push(
-                <tr>
-                    <Column cols={props.cols || 2}/>
+                <tr key={i}>
+                    <Column row={i} startPosition={props.startPosition} cols={props.cols}/>
                 </tr>
             )
         }
@@ -17,7 +17,7 @@ export const Rows = (props) => {
     return (
         <>
         <table>
-            {render()}
+            <tbody>{render()}</tbody>
         </table>
         </>
     )
