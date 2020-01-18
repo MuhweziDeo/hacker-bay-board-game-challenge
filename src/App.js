@@ -161,7 +161,8 @@ class App extends React.Component {
             rows={this.state.rows} 
             columns={this.state.columns} 
             /> 
-            <p>Help: Place cursor anyway in the window to start moving player</p>
+            <p>Help: Place cursor anyway in the window to start moving player and Use arrow Keys to move player</p>
+          
         </div>  
                
       </div>

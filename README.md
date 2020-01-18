@@ -13,7 +13,10 @@ A React maze game where a player gets to eat random spirities generated on the b
 - Start client server using `npm start`
 - Visit `localhost:3000` to start playing game
 - Enter the number of rows and columns to generate a board
+- To Run production build 
 
 ## Dependencies 
 - React
+- gh-pages
+- [React-keyboard-event-handler](https://www.npmjs.com/package/react-keyboard-event-handler)
 
