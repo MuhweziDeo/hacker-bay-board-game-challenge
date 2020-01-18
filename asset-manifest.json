@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MuhweziDeo.github.io/hacker-bay-board-game-challenge/static/css/main.b42cef62.chunk.css",
+    "main.js": "/MuhweziDeo.github.io/hacker-bay-board-game-challenge/static/js/main.960e6e3b.chunk.js",
+    "main.js.map": "/MuhweziDeo.github.io/hacker-bay-board-game-challenge/static/js/main.960e6e3b.chunk.js.map",
+    "runtime-main.js": "/MuhweziDeo.github.io/hacker-bay-board-game-challenge/static/js/runtime-main.462c56b0.js",
+    "runtime-main.js.map": "/MuhweziDeo.github.io/hacker-bay-board-game-challenge/static/js/runtime-main.462c56b0.js.map",
+    "static/js/2.fc91136c.chunk.js": "/MuhweziDeo.github.io/hacker-bay-board-game-challenge/static/js/2.fc91136c.chunk.js",
+    "static/js/2.fc91136c.chunk.js.map": "/MuhweziDeo.github.io/hacker-bay-board-game-challenge/static/js/2.fc91136c.chunk.js.map",
+    "index.html": "/MuhweziDeo.github.io/hacker-bay-board-game-challenge/index.html",
+    "precache-manifest.56e8a034b1bc2b0a82d63a339469ac4b.js": "/MuhweziDeo.github.io/hacker-bay-board-game-challenge/precache-manifest.56e8a034b1bc2b0a82d63a339469ac4b.js",
+    "service-worker.js": "/MuhweziDeo.github.io/hacker-bay-board-game-challenge/service-worker.js",
+    "static/css/main.b42cef62.chunk.css.map": "/MuhweziDeo.github.io/hacker-bay-board-game-challenge/static/css/main.b42cef62.chunk.css.map",
+    "static/js/2.fc91136c.chunk.js.LICENSE": "/MuhweziDeo.github.io/hacker-bay-board-game-challenge/static/js/2.fc91136c.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.462c56b0.js",
+    "static/js/2.fc91136c.chunk.js",
+    "static/css/main.b42cef62.chunk.css",
+    "static/js/main.960e6e3b.chunk.js"
+  ]
+}
