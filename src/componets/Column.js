@@ -7,7 +7,7 @@ export const Column = ({rowAt, playerPosition, sprites, columns}) => {
         const cols = [];
         for(let i = 0; i < columns; i++) {
             cols.push(
-                <td key={i}>
+                <td key={i} width="50" height="50">
                     { rowAt === playerPosition[0] && playerPosition[1] === i 
                         ?  <img width="20" src={mario} alt="mario-img" /> : null}
                     {
