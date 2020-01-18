@@ -2,17 +2,17 @@ import React from "react";
 import mario from "../assets/mario.jpg";
 import sprite from "../assets/food.jpeg";
 
-export const Column = (props) => {
+export const Column = ({rowAt, playerPosition, sprites, columns}) => {
     const render = () => {
         const cols = [];
-        for(let i = 0; i < props.cols; i++) {
+        for(let i = 0; i < columns; i++) {
             cols.push(
                 <td key={i}>
-                    { props.rowAt === props.startPosition[0] && props.startPosition[1] === i 
-                        ?  <img width="30" src={mario} /> : null}
+                    { rowAt === playerPosition[0] && playerPosition[1] === i 
+                        ?  <img width="20" src={mario} alt="mario-img" /> : null}
                     {
-                        props.sprites[JSON.stringify([props.rowAt, i])] ? 
-                        <img width={30} src={sprite} key={i} alt=""/> : null
+                        sprites[JSON.stringify([rowAt, i])] ? 
+                        <img width={20} src={sprite} key={i} alt="sprite-img"/> : null
                     }    
                 </td>);
         }
