@@ -6,11 +6,15 @@ table {
 
 table, th, td {
   border: 1px solid black;
-  padding: 1rem;
+  padding: 3rem;
 }
 
 .board__container {
   display: flex;
   padding: 4rem;
   justify-content: center;
+}
+
+.container{
+  text-align: center;
 }
