@@ -9,7 +9,8 @@ class App extends React.Component {
     columns: 0,
     currentPostion: [],
     sprites: {},
-    moves: 0
+    moves: 0,
+    completed: false
   }
   
   componentDidMount() {
@@ -37,7 +38,8 @@ class App extends React.Component {
       this.setState({
         currentPostion,
         sprites,
-        moves: 0
+        moves: 0,
+        completed: false
       });
     });
     return;
@@ -130,32 +132,38 @@ class App extends React.Component {
         break;        
     }
 
-    while (JSON.stringify(newPosition) !== prevPostion) {
-      this.setState({moves: this.state.moves+=1});
+    while (JSON.stringify(newPosition) !== prevPostion && !this.state.completed) {
+      let moves = this.state.moves;
+      this.setState({moves: moves+=1});
       const allSprites = {...this.state.sprites};
-      console.log('--->',JSON.stringify(newPosition))
-      console.log(allSprites)
       if(Object.keys(allSprites).length <=0) {
-        setTimeout(()=> {
-          alert(`You completed the maze with ${this.state.moves} moves`)
-          this.intializeGame();
-        },200)
-        
+        this.setState({completed: true, totalMoves: this.state.moves});
       }
       break;
     }
   }
   render() {
+    const {state: {completed}} = this;
     return(
       <div className="container">
-          <h1>Your Moves: {this.state.moves}</h1>
-        <Board 
-          sprites={this.state.sprites} 
-          handleKeyPress={this.onChange} 
-          startPostion={this.state.currentPostion} 
-          rows={this.state.rows} 
-          columns={this.state.columns} 
-          />
+          <h1>Total Moves: {this.state.moves}</h1>
+          <div>
+            {completed ? <>
+            <h2>You Won with a total {this.state.moves} moves</h2>
+            <button onClick={this.intializeGame}>Restart Game</button> 
+            </>: null}
+          </div>
+        <div className="board">
+          <Board 
+            sprites={this.state.sprites} 
+            handleKeyPress={this.onChange} 
+            playerPosition={this.state.currentPostion} 
+            rows={this.state.rows} 
+            columns={this.state.columns} 
+            /> 
+            <p>Help: Place cursor anyway in the window to start moving player</p>
+        </div>  
+               
       </div>
     )
   }

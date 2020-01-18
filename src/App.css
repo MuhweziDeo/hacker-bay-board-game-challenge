@@ -1,12 +1,18 @@
 table {
   border-collapse: collapse;
-  width: 50%;
+  width: 20%;
   text-align: center;
 }
 
 table, th, td {
   border: 1px solid black;
-  padding: 3rem;
+  
+}
+td, th {
+  padding: 1rem;
+  min-height: 6rem;
+  min-width: 2rem;
+  display: table-cell;
 }
 
 .board__container {
@@ -17,4 +23,34 @@ table, th, td {
 
 .container{
   text-align: center;
+}
+
+h2 {
+  color: red;
+  font-weight: bolder;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.board {
+  height: 2vh;
+}
+
+.container {
+height: 10vh;
+}
+
+p {
+  margin-top: -30px;
 }

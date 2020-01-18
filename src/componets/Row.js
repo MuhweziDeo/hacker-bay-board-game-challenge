@@ -1,19 +1,19 @@
 import React from "react";
 import { Column } from "./Column";
 
-export const Rows = (props) => {
+export const Rows = ({sprites, rows, playerPosition, columns}) => {
 
     const render = () => {
-        const rows = []
-        for(let i = 0; i < props.rows; i++) {
-            rows.push(
+        const renderedRows = []
+        for(let i = 0; i < rows; i++) {
+            renderedRows.push(
                 <tr key={i}>
-                    <Column sprites={props.sprites} 
-                        rowAt={i} startPosition={props.startPosition} cols={props.cols}/>
+                    <Column sprites={sprites} 
+                        rowAt={i} playerPosition={playerPosition} columns={columns}/>
                 </tr>
             )
         }
-        return rows;
+        return renderedRows;
     }
     return (
         <>
