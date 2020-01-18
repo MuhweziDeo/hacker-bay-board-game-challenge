@@ -8,7 +8,8 @@ export const Rows = (props) => {
         for(let i = 0; i < props.rows; i++) {
             rows.push(
                 <tr key={i}>
-                    <Column row={i} startPosition={props.startPosition} cols={props.cols}/>
+                    <Column sprites={props.sprites} 
+                        rowAt={i} startPosition={props.startPosition} cols={props.cols}/>
                 </tr>
             )
         }
