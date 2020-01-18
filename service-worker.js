@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hacker-bay-board-game-challenge/precache-manifest.a7abee7537efe49c8e0c88d56b1c38b3.js"
+  "/hacker-bay-board-game-challenge/precache-manifest.ab1e51ac32230a537628383fcfea9662.js"
 );
 
 self.addEventListener('message', (event) => {

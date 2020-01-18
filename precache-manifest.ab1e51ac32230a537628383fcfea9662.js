@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "249a019216cda48b8bea2821bfe12dcf",
+    "revision": "c37559d12b7d86654b74bd4bfa1cfcb2",
     "url": "/hacker-bay-board-game-challenge/index.html"
   },
   {
-    "revision": "84db3389030853de966f",
-    "url": "/hacker-bay-board-game-challenge/static/css/main.b42cef62.chunk.css"
+    "revision": "6dbb8b77d5e22518e582",
+    "url": "/hacker-bay-board-game-challenge/static/css/main.159e69c0.chunk.css"
   },
   {
     "revision": "eb3e4b87fa8e631a9e01",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hacker-bay-board-game-challenge/static/js/2.fc91136c.chunk.js.LICENSE"
   },
   {
-    "revision": "84db3389030853de966f",
-    "url": "/hacker-bay-board-game-challenge/static/js/main.41acbf2d.chunk.js"
+    "revision": "6dbb8b77d5e22518e582",
+    "url": "/hacker-bay-board-game-challenge/static/js/main.aa07dd8b.chunk.js"
   },
   {
     "revision": "2e46c4249dd3680c065b",

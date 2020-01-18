@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/hacker-bay-board-game-challenge/static/css/main.b42cef62.chunk.css",
-    "main.js": "/hacker-bay-board-game-challenge/static/js/main.41acbf2d.chunk.js",
-    "main.js.map": "/hacker-bay-board-game-challenge/static/js/main.41acbf2d.chunk.js.map",
+    "main.css": "/hacker-bay-board-game-challenge/static/css/main.159e69c0.chunk.css",
+    "main.js": "/hacker-bay-board-game-challenge/static/js/main.aa07dd8b.chunk.js",
+    "main.js.map": "/hacker-bay-board-game-challenge/static/js/main.aa07dd8b.chunk.js.map",
     "runtime-main.js": "/hacker-bay-board-game-challenge/static/js/runtime-main.efcf504d.js",
     "runtime-main.js.map": "/hacker-bay-board-game-challenge/static/js/runtime-main.efcf504d.js.map",
     "static/js/2.fc91136c.chunk.js": "/hacker-bay-board-game-challenge/static/js/2.fc91136c.chunk.js",
     "static/js/2.fc91136c.chunk.js.map": "/hacker-bay-board-game-challenge/static/js/2.fc91136c.chunk.js.map",
     "index.html": "/hacker-bay-board-game-challenge/index.html",
-    "precache-manifest.a7abee7537efe49c8e0c88d56b1c38b3.js": "/hacker-bay-board-game-challenge/precache-manifest.a7abee7537efe49c8e0c88d56b1c38b3.js",
+    "precache-manifest.ab1e51ac32230a537628383fcfea9662.js": "/hacker-bay-board-game-challenge/precache-manifest.ab1e51ac32230a537628383fcfea9662.js",
     "service-worker.js": "/hacker-bay-board-game-challenge/service-worker.js",
-    "static/css/main.b42cef62.chunk.css.map": "/hacker-bay-board-game-challenge/static/css/main.b42cef62.chunk.css.map",
+    "static/css/main.159e69c0.chunk.css.map": "/hacker-bay-board-game-challenge/static/css/main.159e69c0.chunk.css.map",
     "static/js/2.fc91136c.chunk.js.LICENSE": "/hacker-bay-board-game-challenge/static/js/2.fc91136c.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.efcf504d.js",
     "static/js/2.fc91136c.chunk.js",
-    "static/css/main.b42cef62.chunk.css",
-    "static/js/main.41acbf2d.chunk.js"
+    "static/css/main.159e69c0.chunk.css",
+    "static/js/main.aa07dd8b.chunk.js"
   ]
 }
